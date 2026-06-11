@@ -1,6 +1,8 @@
 name: Pipeline Monitor Demo
 
 on:
+  workflow_dispatch:
+
   push:
 
 jobs:
